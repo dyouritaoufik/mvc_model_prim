@@ -1,0 +1,32 @@
+dbh is the PDO instance
+stmt is the variable that holds the prepared query for sql
+The bindValue is the PDO method that proceed a the data binding
+content creation 
+content modification 
+content deleting 
+looking for the jquery functions for the content creation 
+modification 
+deleting functions
+the first think to do is to determine the dom elements to use in order to be safe in terms of static content
+
+Project dynamic manipulation functions
+- i want to use a function or two to manipulate the product cards roulette
+- i want to use a function to manipulate the project imgs with respect to promotion (model task)
+- i want to use a function to manipulate the index page architecture for the sake of better looking
+    - progress bar.
+    - cards collection roullete.
+    - Pagination menu.
+this would send a xhr request when card clicked.
+    - a commande is created then (if not created for the current client)
+    - the promoted article is always under the product collection were it belongs.
+    - 
+- i want to use a function to manipulate 
+
+- Authentication-widget 
+the authentication widget is a MODAL from bootstrap classes i use it to :
+    - obtain a sign up form.
+    - obtain a Login form.
+toggle function with jquery to obtain a pagination.
+
+for creating content we use the <p> target the paragraph tag
+for the content selection we use p syntax to do it right.

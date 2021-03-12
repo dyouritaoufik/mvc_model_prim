@@ -1,0 +1,64 @@
+/* display flex box */
+
+.container-shop {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.container-shop div, nav {
+	flex-flow: column wrap;
+	justify-content: center;
+
+}
+
+.container-shop div {
+	margin: 10px;
+}
+
+.container-cards div.card {
+	float: left;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-self: stretch;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 200px;
+
+}
+
+#id-card-position {
+	position: absolute;
+	float: right;
+	margin-left: 825px;
+	margin-top: 50px;
+	height: 600px;
+	width: 350px;
+}
+
+#id-card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 400px;
+	height: 200px;
+	margin: 15px;
+
+}
+
+div#id-card-description, div#id-card-col {
+	display: flex;
+	align-self: stretch;
+	position: relative;
+	width: 550px;
+	height: 175px;
+	margin: 15px;
+
+}
+
+dl.dl-horizontal {
+	margin: 30px;
+	width: 1000px;
+}
